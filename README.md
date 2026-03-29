@@ -1,89 +1,83 @@
-# Derma-Sense
-AI-powered skin analysis app using Python, Streamlit, and ML.
+# 🩺 Skin Condition Detector
 
-# 🧴 DermaSense - Skin Analysis System
+A machine learning-powered application for detecting various skin conditions from images using Convolutional Neural Networks (CNN).
 
-## 📌 Overview
-DermaSense is a **Machine Learning-based skin analysis web application** that helps users identify skin conditions and provides personalized skincare recommendations. It uses **Python and Data Science libraries** to analyze data and deliver intelligent results through a simple and user-friendly interface.
+## 🧪 Tech Stack
 
----
+| Component         | Technology/Library              |
+|------------------|---------------------------------|
+| Programming      | Python 3.x                      |
+| AI/ML            | TensorFlow/Keras (CNN)          |
+| Image Processing | OpenCV/Pillow                   |
+| Frontend/UI      | Streamlit                       |
+| Dataset          | Kaggle Skin Disease Datasets    |
+| Visualization    | Matplotlib/Seaborn              |
 
-## 🚀 Features
-- 🔍 Skin condition analysis using Machine Learning  
-- 📊 Data processing using NumPy & Pandas  
-- 📈 Data visualization using Matplotlib  
-- 🧠 Intelligent skincare recommendations  
-- 💻 Clean and responsive user interface  
-- ⚡ Fast and efficient performance  
+## ✨ Features (MVP)
 
----
+1. **Photo Upload** - Upload images of skin areas for analysis
+2. **Skin Condition Detection** - Classifies into 5 categories:
+   - Acne
+   - Dryness
+   - Healthy
+   - Spots
+   - Eczema
+3. **Care Tips/Recommendations** - Personalized suggestions for each condition
+4. **History Tracking** - Stores previous analyses for progress monitoring
+5. **Branding** - Professional UI with logo and branding
 
-## 🧠 Technologies Used
-- **Programming Language:** Python  
-- **Libraries:**  
-  - NumPy  
-  - Pandas  
-  - Matplotlib  
-  - Scikit-learn  
-- **Machine Learning:** Classification / Prediction Models  
-- **Frontend:** HTML, CSS  
-- **Backend:** Flask / Django  
+## 🚀 Installation
 
----
+1. Clone this repository:
+   ```bash
+   git clone <repository-url>
+   cd skin_condition_detector
+   ```
 
-## ⚙️ Problem Statement
-Skin-related issues are very common, but people often struggle to identify them correctly and find proper solutions. DermaSense aims to solve this problem by providing an **automated and intelligent system** that analyzes skin conditions and suggests suitable remedies.
+2. Install required packages:
+   ```bash
+   pip install -r requirements.txt
+   ```
 
----
+## ▶️ Usage
 
-## 💡 Solution
-This project uses **Machine Learning algorithms** and **data analysis techniques** to:
-- Analyze skin-related data  
-- Identify possible conditions  
-- Provide personalized skincare suggestions  
-
----
-
-## 🖥️ System Requirements
-- Python 3.x  
-- Required libraries (NumPy, Pandas, Matplotlib, Scikit-learn)  
-- Any modern web browser  
-
----
-
-## ▶️ How to Run
+Run the Streamlit app:
 ```bash
-# Clone the repository
-git clone https://github.com/your-username/dermasense.git
+streamlit run app.py
+```
 
-# Navigate to the project directory
-cd dermasense
+Then open your browser to the provided local URL (typically http://localhost:8501).
 
-# Install dependencies
-pip install -r requirements.txt
+## 📁 Project Structure
 
-# Run the application
-python app.py
+```
+skin_condition_detector/
+├── app.py              # Main Streamlit application
+├── model.py            # CNN model implementation
+├── utils.py            # Utility functions
+├── requirements.txt    # Python dependencies
+├── README.md           # This file
+├── models/             # Trained model files
+├── data/               # History and data files
+└── assets/             # Images and other assets
+```
 
-🌍 Real World Applications
-Skincare assistance platforms
-Dermatology support systems
-Health-tech applications
-AI-based diagnosis tools
-🔮 Future Scope
-🤖 Integration with Deep Learning models
-📸 Image-based skin detection
-📱 Mobile application development
-🌐 Cloud deployment
-📚 Conclusion
+## 🧠 Model Training
 
-DermaSense demonstrates how Machine Learning and Data Science can be applied to solve real-world healthcare problems by providing smart and efficient skincare solutions.
+The model was trained on Kaggle skin disease datasets with the following preprocessing steps:
+1. Image resizing to 224x224 pixels
+2. Normalization of pixel values
+3. Data augmentation techniques
+4. 5-class classification using CNN architecture
 
-🙌 Acknowledgement
+## 🔮 Future Enhancements
 
-Thanks to faculty and mentors for their guidance and support throughout the project.
+- Integration with more specialized skin condition datasets
+- Real-time camera analysis
+- Mobile application version
+- Advanced visualization of skin analysis
+- Email/SMS notifications for tracking
 
-👨‍💻 Author
+## ⚠️ Disclaimer
 
-Vishal Chaudhary
-B.Tech CSE | BSACET
+This application is for educational and demonstration purposes only. It is not intended to replace professional medical advice, diagnosis, or treatment. Always consult with a qualified healthcare professional for any skin concerns.
