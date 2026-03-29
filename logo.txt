@@ -1,0 +1,9 @@
+SKIN CONDITION DETECTOR
+    ╭─────────────────╮
+    │     🩺          │
+    │   SKIN SCAN     │
+    │                 │
+    │  ACNE  HEALTHY  │
+    │  SPOTS ECZEMA   │
+    │  DRYNESS        │
+    ╰─────────────────╯

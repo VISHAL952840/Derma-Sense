@@ -1,0 +1,134 @@
+[
+  {
+    "Timestamp": "2025-10-28 20:41:34",
+    "Filename": "acne image.jpg",
+    "Condition": "Healthy",
+    "Confidence": 71.61945378781566
+  },
+  {
+    "Timestamp": "2025-10-28 20:46:38",
+    "Filename": "acne image.jpg",
+    "Condition": "Acne",
+    "Confidence": 73.2452046718774
+  },
+  {
+    "Timestamp": "2025-10-28 20:51:54",
+    "Filename": "acne image.jpg",
+    "Condition": "Eczema",
+    "Confidence": 89.77824924716914
+  },
+  {
+    "Timestamp": "2025-10-28 20:52:08",
+    "Filename": "acne image.jpg",
+    "Condition": "Healthy",
+    "Confidence": 85.74961449727567
+  },
+  {
+    "Timestamp": "2025-10-28 20:52:11",
+    "Filename": "acne image.jpg",
+    "Condition": "Acne",
+    "Confidence": 79.09793819700214
+  },
+  {
+    "Timestamp": "2025-10-28 20:52:12",
+    "Filename": "acne image.jpg",
+    "Condition": "Spots",
+    "Confidence": 81.08790594652903
+  },
+  {
+    "Timestamp": "2025-10-28 20:52:14",
+    "Filename": "acne image.jpg",
+    "Condition": "Healthy",
+    "Confidence": 76.11543777676019
+  },
+  {
+    "Timestamp": "2025-10-28 20:52:15",
+    "Filename": "acne image.jpg",
+    "Condition": "Healthy",
+    "Confidence": 80.37035490743516
+  },
+  {
+    "Timestamp": "2025-10-28 20:52:17",
+    "Filename": "acne image.jpg",
+    "Condition": "Acne",
+    "Confidence": 89.33888408855331
+  },
+  {
+    "Timestamp": "2025-10-28 20:52:18",
+    "Filename": "acne image.jpg",
+    "Condition": "Healthy",
+    "Confidence": 80.20522428196786
+  },
+  {
+    "Timestamp": "2025-10-28 20:52:19",
+    "Filename": "acne image.jpg",
+    "Condition": "Healthy",
+    "Confidence": 75.61330626654838
+  },
+  {
+    "Timestamp": "2025-10-28 20:52:23",
+    "Filename": "acne image.jpg",
+    "Condition": "Eczema",
+    "Confidence": 72.60661561254018
+  },
+  {
+    "Timestamp": "2025-10-28 20:52:25",
+    "Filename": "acne image.jpg",
+    "Condition": "Dryness",
+    "Confidence": 73.87114780720145
+  },
+  {
+    "Timestamp": "2025-10-28 20:52:29",
+    "Filename": "acne image.jpg",
+    "Condition": "Healthy",
+    "Confidence": 71.75641771729778
+  },
+  {
+    "Timestamp": "2025-10-28 20:52:53",
+    "Filename": "WhatsApp Image 2025-08-30 at 2.33.18 PM.jpeg",
+    "Condition": "Eczema",
+    "Confidence": 81.51948063532186
+  },
+  {
+    "Timestamp": "2025-10-28 20:58:05",
+    "Filename": "xray.jpg",
+    "Condition": "Spots",
+    "Confidence": 92.8463233560396
+  },
+  {
+    "Timestamp": "2025-10-28 21:21:19",
+    "Filename": "demo_image.jpg",
+    "Condition": "Dryness",
+    "Confidence": 93.79205402258057
+  },
+  {
+    "Timestamp": "2025-10-28 21:26:43",
+    "Filename": "acne image.jpg",
+    "Condition": "Spots",
+    "Confidence": 82.77204312795021
+  },
+  {
+    "Timestamp": "2025-10-28 21:34:54",
+    "Filename": "acne image.jpg",
+    "Condition": "Healthy",
+    "Confidence": 82.54586336557776
+  },
+  {
+    "Timestamp": "2025-10-28 21:53:58",
+    "Filename": "acne image.jpg",
+    "Condition": "Dryness",
+    "Confidence": 74.96051131167212
+  },
+  {
+    "Timestamp": "2026-01-28 19:01:14",
+    "Filename": "WhatsApp Image 2025-12-02 at 18.46.51_e5367657.jpg",
+    "Condition": "Spots",
+    "Confidence": 78.24474611390842
+  },
+  {
+    "Timestamp": "2026-01-28 19:21:54",
+    "Filename": "WhatsApp Image 2025-12-02 at 18.46.51_e5367657.jpg",
+    "Condition": "Eczema",
+    "Confidence": 84.09297479847271
+  }
+]
