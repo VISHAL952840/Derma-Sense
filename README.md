@@ -64,3 +64,26 @@ pip install -r requirements.txt
 
 # Run the application
 python app.py
+
+🌍 Real World Applications
+Skincare assistance platforms
+Dermatology support systems
+Health-tech applications
+AI-based diagnosis tools
+🔮 Future Scope
+🤖 Integration with Deep Learning models
+📸 Image-based skin detection
+📱 Mobile application development
+🌐 Cloud deployment
+📚 Conclusion
+
+DermaSense demonstrates how Machine Learning and Data Science can be applied to solve real-world healthcare problems by providing smart and efficient skincare solutions.
+
+🙌 Acknowledgement
+
+Thanks to faculty and mentors for their guidance and support throughout the project.
+
+👨‍💻 Author
+
+Vishal Chaudhary
+B.Tech CSE | BSACET
